@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+.init {
+    font-family: helvetica;
+    background-color: gray;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
