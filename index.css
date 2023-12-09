@@ -2,12 +2,6 @@ h1 {
     text-align: center;
 }
 
-p {
-    font-family: helvetica;
-    background-color: gray;
-    text-align: center;
-}
-
 div {
     display: inline-block;
 }    
