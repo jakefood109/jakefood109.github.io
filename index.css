@@ -8,6 +8,10 @@ p {
     text-align: center;
 }
 
+.dbois {
+    display: inline-block;
+}    
+
 #dance {
-    width: 100%;
+    width: 25;
 }
