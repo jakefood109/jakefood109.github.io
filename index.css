@@ -14,3 +14,13 @@ div {
 img {
     width: 33.3%;
 }
+
+footer {
+    background-color: black;
+    color: grey;
+    padding: 0px 0px;
+    font-size: 25px;
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 20px;
+}
