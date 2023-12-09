@@ -12,6 +12,6 @@ div {
     display: inline-block;
 }    
 
-img {
+img.gif-delayer.gif-delayer-loaded {
     width: 25%;
 }
