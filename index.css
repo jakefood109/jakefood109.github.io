@@ -8,10 +8,10 @@ p {
     text-align: center;
 }
 
-div.dbois {
+div {
     display: inline-block;
 }    
 
-img#dance {
+img {
     width: 25%;
 }
