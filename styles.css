@@ -1,233 +1,47 @@
 body {
-    background-color: bisque;
-    }
-    
-    h2, h3, p {
-      text-align: center;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      color: navajowhite;
-    }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://media3.giphy.com/media/TFF37Bs8m63u/giphy.gif?cid=ecf05e477zfgd334dvj1zc0hnddb1f5zkrh2aqnt3fk47wzd&ep=v1_gifs_related&rid=giphy.gif&ct=g') center center fixed;
+    background-size: cover;
+}
 
-    h4 {
-        border: 6px dotted;
-        height: 30px;
-        border-radius: 88px;
-        padding: 60px 5px;
-    }
-    
-    h3.name {
-        margin: 0px 3px;
-        border: 1px solid white;
-        border-radius: 3px;
-        background-color: white;
-        opacity: 0.7;
-        color: black;
-    }
+.calculator-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-    p.duty {
-        background-color: rgb(0 0 0 / 39%);
-        margin-top: 22px;
-    }
-    
-    .logo-image {
-        margin: 0px auto;
-    }
-    
-    .logo {
-        display: flex;
-        background-image: url(https://officeservicecompany.com/wp-content/uploads/2020/11/office_supplies-min.jpg);
-        background-size: cover;
-        padding: 7px 100px;
-        text-align: center;
-        color: #FFC107;
-        text-shadow: 2px 2px rgba(0, 0, 0, 0.75);
-        border-radius: 20px;
-        justify-content: center;
-        flex-shrink: 2;
-        font-size: 72px
-    }
-    
-    .topbar {
-      display: inline-flex;
-      width: 100%;
-      justify-content: space-evenly;
-    }
-    
-    a {
-     text-decoration: none;
-     color: black;
-    }
-    
-    .item_a {
-        flex: 1;
-        color: black;
-        text-decoration: none;
-        margin: 2px 8px;
-        border: 1px solid black;
-        border-radius: 3px;
-        padding: 2px 2px;
-        font-family: helvetica;
-        text-align: center;
-    }
-    
-    .item_b {
-        flex: 2;
-        color: black;
-        text-decoration: none;
-        margin: 2px 8px;
-        border: 1px solid black;
-        border-radius: 3px;
-        padding: 2px 2px;
-        font-family: helvetica;
-        text-align: center;
-    }
-    
-    .item_c {
-        flex: 1;
-        color: black;
-        text-decoration: none;
-        margin: 2px 8px;
-        border: 1px solid black;
-        border-radius: 3px;
-        padding: 2px 2px;
-        font-family: helvetica;
-        text-align: center;
-    }
-    
-    .item_a:hover,
-    .item_b:hover,
-    .item_c:hover {
-      background-color: #795548;
-      cursor: pointer;
-    }
-    
-    .mission {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    #statement {
-        flex-flow: wrap;
-        display: flex;
-        background-color: blanchedalmond;
-        font-family: fantasy;
-        font-size: 30px;
-        width: 84%;
-        justify-content: center;
-        height: 100px;
-        align-content: center;
-        text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
-        border: 8px solid #795548;
-        border-radius: 100px;
-        color: black;
-        padding: 0px 31px;
-    }
-    
-    .products {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: center;
-    }
-    
-    .product {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 355px;
-    }
-    
-    .product span {
-      min-width: 100px;
-      max-width: 100px;
-      padding: 8px;
-      text-align: center;
-      font-weight: bolder;
-      border: 1px solid black;
-      border-radius: 8px;
-      margin-left: 5px;
-    }
-    
-    .product span:hover {
-      background-color: #795548;
-      cursor: pointer;
-    }
-    
-    img {
-      margin-left: auto;
-      margin-right: auto;
-      width: 140px;
-      max-height: 140px;
-      border-radius: 5px;
-    }
-    
-    #team-container {
-      background-image: url("https://eatatthekrustykrab.files.wordpress.com/2018/04/interior-2.jpg");
-      background-size: cover;
-    }
-    
-    .team {
-        padding-top: 70px;
-        padding-top: 5px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    
-    .teammate {
-        background-color: rgb(64 0 54 / 29%);
-        border-radius: 5px;
-        padding: 12px 4px;
-        margin-bottom: 20px;
-    }
-    
-    .teammate img {
-        margin-left: 20px;
-        margin-right: 20px;
-        width: auto;
-        height: auto;
-    }
+label {
+    display: block;
+    margin-bottom: 8px;
+}
 
-    footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-    }
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
 
-    .thanks {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-    }
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
-    p.footstate {
-        color: black;
-        margin-right: 8px;
-        height: fit-content;
-    }
+button:hover {
+    background-color: #45a049;
+}
 
-    embed {
-        max-width: 9%;
-        min-width: 5%;
-        flex-grow: 2;
-        height: auto;
-    }
-    
-    @media only screen and (min-width: 200px) and (max-width: 500px) {
-     .topbar {
-      flex-direction: column;
-     }
-     a {
-      text-align: center;
-     }
-     body {
-      font-size: smaller;
-     } 
-     #statement {
-      font-size: 20px;
-     }
-    }
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}

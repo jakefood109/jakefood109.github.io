@@ -1,68 +1,28 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>JS OFFICE PRODUCTS</title>
-    <link rel="stylesheet" href="./styles.css" type="text/css">  
-  </head>
-  <body>
-    <div class="logo-image">
-      <h1 class="logo">JS OFFICE PRODUCTS</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weed Calculator</title>
+</head>
+<body>
+
+    <div class="calculator-container">
+        <label for="dollars">Enter dollars customer has to spend:</label>
+        <input type="number" id="dollars" placeholder="Enter dollars">
+
+        <label for="stashprice">Enter stash price:</label>
+        <input type="number" id="stashprice" placeholder="Enter stash price">
+
+        <label for="stashamount">Enter stash amount (grams):</label>
+        <input type="number" id="stashamount" placeholder="Enter stash amount">
+
+        <button onclick="calculateWeed()">Calculate</button>
+
+        <div id="result"></div>
     </div>
-    <nav class="topbar">
-      <p class="item_a"><a href="#">CONTACT</a></p>
-      <p class="item_b"><a href="#">WHOLESALE</a></p>
-      <p class="item_c"><a href="#">CAREERS</a></p> 
-    </nav>
-    <div class="mission">
-        <p id="statement">"We go great lengths to do a whole lot of nothing!"</p>
-    </div>
-    <div class="products">
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/71v4QA3XeYL._SL1500_.jpg" >
-        <span>Office Chair Wheels</span> 
-      </div>  
-      <div class="product">
-        <img src="https://images.yswcdn.com/6373296224079993417-ql-82/293/463/aah/modernoffice/black-leather-executive-office-chair-w-chrome-accents-140.jpg">
-        <span>Leather Office Chairs</span> 
-      </div>
-      <div class="product">
-        <img src="https://store.haworth.com/cdn/shop/products/202108-Haworth-Store-PDP-Fern-Executive-Gallery-Image-2-1x1_2acf9c17-8a60-49bb-9242-0ccdfed2edc4.jpg">
-        <span>Ergonomic Office Chairs</span> 
-      </div>
-      <div class="product">
-        <img src="https://cdn.casamare.us/wp-content/uploads/2020/12/atlas-79-l-shaped-home-office-furniture-desk-brown-black-3.jpg">
-        <span>Desks</span> 
-      </div>
-      <div class="product">
-        <img src="https://assets.wfcdn.com/im/55727085/compr-r85/4129/41294108/bottomley-1425-wide-3-drawer-steel-file-cabinet.jpg">
-        <span>File Cabinets</span> 
-      </div>
-      <div class="product">
-        <img src="https://i.etsystatic.com/isla/910f97/34229353/isla_fullxfull.34229353_lywq3bgq.jpg">
-        <span>Frogs</span> 
-      </div>
-    </div>
-    <div id="team-container">
-      <h2>The Tech Team</h2>
-      <div class="team">
-        <div class="teammate">
-          <img src="https://papiphotos.remax-im.com/Person/100046801/MainPhoto_cropped/MainPhoto_cropped.jpg">
-          <h3 class="name">Kelly Kline</h3>
-          <p class="duty">She buys the offices</p>
-        </div>
-        <div class="teammate">
-          <img src="https://ih1.redbubble.net/image.3679730072.6108/st,small,507x507-pad,600x600,f8f8f8.jpg">
-          <h3 class="name">Fred the Fish</h3>
-          <p class="duty">He cleans the joints</p>         
-        </div>  
-      </div>  
-    </div>
-    <footer>
-        <h4>JS OFFICE PRODUCTS</h4>
-        <div class="thanks">
-            <embed src="https://i.giphy.com/FAFo1M7EC4gRZ4HETH.webp">
-            <p class="footstate">Thank you for visiting! New content soon!</p>
-        </div>    
-    </footer>    
-  </body>   
+
+    <script src="weedcalculator.js"></script>
+</body>
 </html>
