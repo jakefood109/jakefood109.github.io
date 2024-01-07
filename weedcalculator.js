@@ -10,7 +10,7 @@ function calculateWeed() {
     if (weed > stashamount || isNaN(weed)) {
         resultElement.innerHTML = 'Error';
     } else if (weed > 0) {
-        resultElement.innerHTML = `Calculating weed amount...<br>${dollars} dollars will buy you ${weed.toFixed(2)} grams.<br>Happy Smoking!`;
+        resultElement.innerHTML = `${dollars} dollars will buy you ${weed.toFixed(2)} grams.`;
     } else {
         resultElement.innerHTML = 'Error';
     }
